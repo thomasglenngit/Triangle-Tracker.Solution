@@ -12,9 +12,7 @@ namespace TriangleTracker.Tests
     public void IsTriangle_ThreeSides_True()
     {
       Triangle testTriangle = new Triangle();
-      Assert.AreEqual(true, testTriangle.IsTriangle(5, 5, 5));
-     
-    }
-    
+      Assert.AreEqual("Equilateral", testTriangle.IsTriangle(5, 5, 5)); 
+    }  
   }
 }
