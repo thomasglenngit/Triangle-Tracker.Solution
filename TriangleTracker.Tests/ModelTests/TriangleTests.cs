@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TriangleTracker;
+// using Triangle;
 
 namespace TriangleTracker.Tests
 {
@@ -8,11 +9,12 @@ namespace TriangleTracker.Tests
   {
     
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void IsTriangle_ThreeSides_True()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      Triangle testTriangle = new Triangle();
+      Assert.AreEqual(true, testTriangle.IsTriangle(5, 5, 5));
+     
     }
-    // Test methods go here
+    
   }
 }
