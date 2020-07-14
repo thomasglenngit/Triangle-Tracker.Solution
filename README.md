@@ -1,32 +1,45 @@
-# _Hello_
+# _Triange Tracker_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _C# Test Driven Development practice for Epicodus, 07.14.2020_
 
-#### By _**{List of contributors}**_
+#### By _**Thomas Glenn & Brittany Lindgren**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_An application to test which type of Triangle a user has based on the length of the triangle's sides_
 
-| Tables   |      Are      |  Cool |
+| Behavior   |   Input   |  Output |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| The program will gather 3 numbers from the user |  5, 7, 6 | 5, 7, 6 |
+| If all three numbers are equal, program will return "Equilateral" |    5, 5, 5   |   "Equilateral" |
+| If exactly two sides are equal, program will return"Isosceles | 5, 5, 6 | "Isosceles" |
+| If no sides are equal, program will return "Scalene" | 5, 7, 6 | "Scalene" |
+| If any one side is greater than the other two sides added together, program will return "not a triangle" | 2, 2, 8 | "not a triangle" |
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+  1. Follow this [link to the project repository](https://github.com/thomasglengle-Tracker.Solution) on GitHub.   |    |    
+  2. Click on the "Clone or download" button to copy the project link.     
+  3. If you are comfortable with the command line, you can copy the project link and clone it through your command line with the command `git clone`. Otherwise, I recommend choosing "**Download ZIP**".     
+   4. Once the ZIP file has finished downloading, you can right click on the file to view the zip folder in your downloads.     
+  5. Right click on the project ZIP folder that you have just downloaded and choose the option "**Copy To...**", then choose the location where you would like to save this folder.      
+  6. Navigate to the final location where you have chosen to save the project folder.      
+  7. To view the code itself, right click, choose "open with..." and open using a text editor such as VS Code or Atom, etc.   
+
+
+#### Additional Setup/Installation Notes:
+
+* You will need to navigate into TriangleTracker.Tests folder and run the command `dotnet restore`
+
+* No additional code is necessary to view this project.   
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+| Bug | Resolved (Y/N) |  How was the issue resolved?  |
+| ------- | ----- | ------ |
+|  |  |  | 
+
 
 ## Support and contact details
 
@@ -34,10 +47,14 @@ _{Let people know what to do if they run into any issues or have questions, idea
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* C# 
+* .NET-Core 2.2
+* Visual Studio Code
+* Git Version Control 
+* GitHub
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This site is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_{Thomas Glenn & Brittany Lindgren}_**
