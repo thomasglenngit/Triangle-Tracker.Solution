@@ -1,12 +1,18 @@
-# _Triange Tracker_
+<h1 align='center'><img width='900' height='450' src='https://coding-assets.s3.us-west-2.amazonaws.com/hero_images/triangle.jpg'><br>
 
-#### _C# Test Driven Development practice for Epicodus, 07.14.2020_
 
-#### By _**Thomas Glenn & Brittany Lindgren**_
+**<h1 align = 'center'>Triangle Tracker**
 
-## Description
 
-_An application to test which type of Triangle a user has based on the length of the triangle's sides_
+*<h2 align ='center'>C# Test Driven Development practice for Epicodus, 07.14.2020*
+
+
+<h3 align ='center'>•<a href='#requirements'> Requirements</a> •<a href='#setup'> Setup</a> •<a href='#technologies-used'> Technologies</a> •<a href='#❤️contributors'> Contributors</a> •<a href='#known-bugs'> Bugs</a> •<a href='#protecting-your-data'> Protecting Data</a> •<a href='#cloning'> Cloning</a></h3>
+
+
+<h3 align='center'>An application to test which type of Triangle a user has based on the length of the triangle's sides</h3>
+
+# **SPECS**
 
 | Behavior   |   Input   |  Output |
 |----------|:-------------:|------:|
@@ -16,45 +22,69 @@ _An application to test which type of Triangle a user has based on the length of
 | If no sides are equal, program will return "Scalene" | 5, 7, 6 | "Scalene" |
 | If any one side is greater than the other two sides added together, program will return "not a triangle" | 2, 2, 8 | "not a triangle" |
 
-## Setup/Installation Requirements
+# **REQUIREMENTS**
+
+_[Visual Studio Code](https://code.visualstudio.com/)_
+
+# **SETUP**
+
+## **CLONING**
+
+* Copy the repo link as shown in the image below
+
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone.gif 'How to clone repo')
+
+* Paste the link in the field provided by VsCode as thown in the image below
+
+* You will be prompted to open the directory once you have cloned it. Select 'open'
+
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github2.gif 'Cloning from Github within VSCode')
+
+<br>
+
+# **PROTECTING YOUR DATA**
+
+* Step 1: create a .gitignore file in the top level of your project directory. populate the file as shown in step 1 of the image below.
+
+* Step 2: commit that .gitignore file (this prevents your sensitive information like your API key being shown to others). **DO NOT PROCEED UNTIL YOU DO THIS!**
+
+![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image-3.jpg 'Set up instructions')
+
+<br>
+
+# **TECHNOLOGIES USED**
+
+_[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)_
+
+_[Bootstrap](https://getbootstrap.com/)_
+
+_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_
+
+_[Visual Studio Code](https://code.visualstudio.com/)_
+
+<br>
+
+# **KNOWN BUGS**
 
 
-  1. Follow this [link to the project repository](https://github.com/thomasglengle-Tracker.Solution) on GitHub.   |    |    
-  2. Click on the "Clone or download" button to copy the project link.     
-  3. If you are comfortable with the command line, you can copy the project link and clone it through your command line with the command `git clone`. Otherwise, I recommend choosing "**Download ZIP**".     
-   4. Once the ZIP file has finished downloading, you can right click on the file to view the zip folder in your downloads.     
-  5. Right click on the project ZIP folder that you have just downloaded and choose the option "**Copy To...**", then choose the location where you would like to save this folder.      
-  6. Navigate to the final location where you have chosen to save the project folder.      
-  7. To view the code itself, right click, choose "open with..." and open using a text editor such as VS Code or Atom, etc.   
+_**No known bugs as of:** 07.14.2020_
 
+<br>
 
-#### Additional Setup/Installation Notes:
+# **INSTALL**
 
-* You will need to navigate into TriangleTracker.Tests folder and run the command `dotnet restore`
+# **❤️Contributors**
 
-* No additional code is necessary to view this project.   
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/brittany-lindgren.jpeg' width='160px;'/><br /><sub><b>Brittany Lindgren</b></sub>](https://www.linkedin.com/in/brittanylindgren/)<br />
 
-## Known Bugs
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/thomas-glenn.jpeg' width='160px;'/><br /><sub><b>Thomas Glenn</b></sub>](https://www.linkedin.com/in/glennergy/)<br />
 
-| Bug | Resolved (Y/N) |  How was the issue resolved?  |
-| ------- | ----- | ------ |
-|  |  |  | 
+<br>
 
+<br>
 
-## Support and contact details
+![alt text][logo]
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
-## Technologies Used
-
-* C# 
-* .NET-Core 2.2
-* Visual Studio Code
-* Git Version Control 
-* GitHub
-
-### License
-
-*This site is licensed under the MIT license.*
+[logo]: https://img.shields.io/bower/l/bootstrap 'MIT License'
 
 Copyright (c) 2020 **_{Thomas Glenn & Brittany Lindgren}_**
